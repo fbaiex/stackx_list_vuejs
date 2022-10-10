@@ -10,10 +10,8 @@ module.exports = {
       'white-900': '#FFFFFF',
       'white-600': '#F0F0F0',
       'white-400': '#EDEDED',
-
       'grey-300': '#C6C6D3',
       'grey-400': '#A1A1AA',
-
       'dark-300': '#3F3F46',
       'dark-400': '#27272A',
       'dark-500': '#3E3E41',
