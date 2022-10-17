@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from 'axios'
 import { createStore } from 'vuex';
 
 export default createStore({
@@ -10,9 +10,12 @@ export default createStore({
     },
     actions: {
         getUsers() {
-            return axios.get('https://rendomuser.me/api/?results=10')
+            return axios.get('https://randomuser.me/api/?results=10')
             .then(res => {
-                console.log(res)
+                console.log(res);
+            })
+            .catch(error => {
+                console.log(error);
             })
         }
     }
